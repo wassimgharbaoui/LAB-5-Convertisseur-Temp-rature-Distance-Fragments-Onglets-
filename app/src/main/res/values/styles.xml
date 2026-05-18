@@ -1,0 +1,19 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/AppActionBar</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/navigation_bar</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <style name="AppActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:background">@color/primary</item>
+        <item name="android:titleTextStyle">@style/AppActionBarTitle</item>
+    </style>
+
+    <style name="AppActionBarTitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
